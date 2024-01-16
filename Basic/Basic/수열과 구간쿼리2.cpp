@@ -15,3 +15,4 @@ vector<int> solution(vector<int> arr, vector<vector<int>> queries) {
     }
     return answer;
 }
+//복습완료
