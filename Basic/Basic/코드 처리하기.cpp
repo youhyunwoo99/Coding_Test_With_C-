@@ -15,9 +15,8 @@ string solution(string code) {
                 } 
             } else {
                     mode = 1;
-             }
+            }
         }
-        
         else if (mode == 1) {
             if(code[i] != '1'){
                 if(i % 2 != 0){
@@ -28,9 +27,7 @@ string solution(string code) {
                 mode = 0;
             }
         }
-        
     }
-    
     if (answer.empty())
         return "EMPTY";
     else
